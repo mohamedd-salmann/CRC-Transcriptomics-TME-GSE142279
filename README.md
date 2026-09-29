@@ -96,11 +96,12 @@ for s in Scripts/0{1,2,3,4}_*.R; do Rscript "$s" || break; done
 - **Enrichment:** GO BP and KEGG dotplots; GSEA enrichment plots.
 - **Microenvironment:** xCell2 cell-type scores and boxplots with paired Wilcoxon p-values.
 
-> Add your headline results here after running the analysis (number of up/down DEGs, top pathways, significantly changed cell types).
+![Volcano plot](Figures/3.Volcano%20Plot.png)
+![Cell-type abundance](Figures/9.Cell-Type%20Abundance.png)
 
 ## Data Availability
 
-Data come from NCBI GEO accession [GSE142279](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142279). The raw count matrix (GRCh38.p13, NCBI-generated) is available under the series' supplementary files. Large raw and intermediate files may be excluded from this repository (see `.gitignore`); place the downloaded matrix in `Data/` before running.
+Data come from NCBI GEO accession [GSE142279](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142279). The raw count matrix (GRCh38.p13, NCBI-generated) is included in `Data/`, along with `Metadata.csv`. Intermediate `.rds` files are not included (see `.gitignore`) and are regenerated when you run the pipeline.
 
 ## Citation
 
@@ -113,4 +114,4 @@ If you use this code, please cite the dataset and the tools used:
 
 ## License
 
-MIT. Add a `LICENSE` file at the repo root.
+Released under the [MIT License](LICENSE).
