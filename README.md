@@ -104,7 +104,12 @@ Data come from NCBI GEO accession [GSE142279](https://www.ncbi.nlm.nih.gov/geo/q
 
 ## Citation
 
-Please cite the original GEO dataset and the tools used (DESeq2, clusterProfiler, xCell2).
+If you use this code, please cite the dataset and the tools used:
+
+- **Dataset:** GEO accession GSE142279 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142279)
+- **DESeq2:** Love MI, Huber W, Anders S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. *Genome Biology* 15, 550 (2014).
+- **clusterProfiler:** Wu T, et al. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. *The Innovation* 2(3), 100141 (2021).
+- **xCell2:** see https://github.com/dviraran/xCell2 for the recommended citation.
 
 ## License
 
