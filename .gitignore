@@ -1,0 +1,39 @@
+# R session files
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.httr-oauth
+
+# renv library (keep renv.lock)
+renv/library/
+renv/staging/
+
+# R Markdown / knitr caches
+*_cache/
+*_files/
+.quarto/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large or regenerable data
+Data/*.rds
+Data/*.RDS
+Data/*.rda
+Data/*.RData
+Data/*.csv
+Data/*.tsv
+Data/*.tsv.gz
+
+# Keep small essentials
+!Data/Metadata.csv
+
+# Optional: track the raw counts instead of ignoring them
+# (only if < 50 MB, or use Git LFS -- see instructions)
+!Data/GSE142279_raw_counts_GRCh38.p13_NCBI.tsv
