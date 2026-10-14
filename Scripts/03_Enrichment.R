@@ -90,7 +90,7 @@ head(geneList)
 sum(is.na(geneList))
 sum(is.na(names(geneList)))
 
-#If there are NAs, remove it
+#If there are NAs, remove them
 #geneList <- geneList[!is.na(names(geneList))]
 
 geneList <- sort(geneList, decreasing = TRUE)
