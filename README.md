@@ -63,8 +63,8 @@ Tip: use `renv::init()` and commit `renv.lock` to pin package versions.
 ## Running the Pipeline
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/mohamedd-salmann/CRC-Transcriptomics-TME-GSE142279.git
+cd CRC-Transcriptomics-TME-GSE142279
 ```
 
 Download the count matrix from GEO into `Data/`, then run the scripts **in order** from the repo root:
