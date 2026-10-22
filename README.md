@@ -44,7 +44,7 @@ To define the transcriptional programs and tumor-microenvironment signatures tha
 
 | Purpose | Packages |
 |---|---|
-| Differential expression | `DESeq2`, `apeglm` |
+| Differential expression | `DESeq2`|
 | Annotation | `org.Hs.eg.db`, `AnnotationDbi` |
 | Enrichment | `clusterProfiler`, `enrichplot` |
 | Deconvolution | `xCell2` |
@@ -53,7 +53,7 @@ To define the transcriptional programs and tumor-microenvironment signatures tha
 
 ```r
 install.packages(c("tidyverse", "BiocManager", "remotes", "pheatmap", "ggpubr"))
-BiocManager::install(c("DESeq2", "apeglm", "org.Hs.eg.db", "AnnotationDbi",
+BiocManager::install(c("DESeq2", "org.Hs.eg.db", "AnnotationDbi",
                        "clusterProfiler", "enrichplot", "EnhancedVolcano"))
 remotes::install_github("dviraran/xCell2")
 ```
